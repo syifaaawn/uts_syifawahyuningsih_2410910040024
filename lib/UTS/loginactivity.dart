@@ -8,10 +8,20 @@ class Loginactivity extends StatelessWidget {
     return Scaffold( body: 
     Padding(padding: EdgeInsets.all(10),
     child: Column(
-      children: [
-        Image.asset("gambar/Logo.png")
-      ],
-    ),),
+    children: [
+      Row(
+        children: [
+          Image.asset("gambar/Logo.png", width: 250, height: 100,),
+           Text(
+              "LKS MART", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+        ],
+        
+        
+        
+      )
+    ],
+    ),
+    ),
     );
   }
 }
