@@ -6,26 +6,32 @@ class Loginactivity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold( body: 
-    Padding(padding: EdgeInsets.all(10),
+    Padding(padding: EdgeInsets.all(30),
     child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Row(
         mainAxisAlignment: MainAxisAlignment.center,
-      
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image.asset("gambar/Logo.png", height: 100,),
-          MainAxisAlignment.start,
-           Text(
-              "LKS", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
-          Text(
-              "MART", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+          SizedBox(width: 15,),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("LKS", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+            Text("MART", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+          ],
+        ), 
         ],
-        
-        
-        
+    ),
+    Row(
+      children: [
+        Text("Sign In")
+      ],
     )
     ],
+    
     ),
     ),
     );
