@@ -5,8 +5,13 @@ class Loginactivity extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return Scaffold( body: 
+    Padding(padding: EdgeInsets.all(10),
+    child: Column(
+      children: [
+        Image.asset("gambar/Logo.png")
+      ],
+    ),),
     );
   }
 }
