@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_syifawahyuningsih_2410910040024/UTS/daftaractivity.dart';
 import 'package:uts_syifawahyuningsih_2410910040024/UTS/loginactivity.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Loginactivity(),
+      home: Daftaractivity(),
     );
   }
 }

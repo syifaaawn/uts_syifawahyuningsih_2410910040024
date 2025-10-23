@@ -149,9 +149,13 @@ class _LoginactivityState extends State<Loginactivity> {
               
              ],
             ),
+            SizedBox( height: 15,),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text("Belum punya akun")
+                Text("Belum punya akun? ", style: TextStyle( fontWeight: FontWeight.bold),),
+                Text("Daftar disini", style: TextStyle( fontWeight: FontWeight.bold, color: Colors.blueAccent),)
               ],
             )
           ],
