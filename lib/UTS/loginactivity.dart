@@ -135,7 +135,9 @@ class _LoginactivityState extends State<Loginactivity> {
            Row(
              children: [
               Expanded(child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/halaman3"); 
+                  },
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
