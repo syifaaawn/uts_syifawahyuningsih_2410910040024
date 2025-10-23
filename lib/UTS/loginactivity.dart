@@ -155,7 +155,7 @@ class _LoginactivityState extends State<Loginactivity> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text("Belum punya akun? ", style: TextStyle( fontWeight: FontWeight.bold),),
-                Text("Daftar disini", style: TextStyle( fontWeight: FontWeight.bold, color: Colors.blueAccent),)
+                Text("Daftar disini", style: TextStyle( fontWeight: FontWeight.bold, color: const Color.fromARGB(255, 8, 33, 76)),)
               ],
             )
           ],

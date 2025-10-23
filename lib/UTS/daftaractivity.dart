@@ -233,7 +233,7 @@ final TextEditingController _passcontroller = TextEditingController();
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text("Belum punya akun? ", style: TextStyle( fontWeight: FontWeight.bold),),
-                  Text("Login disini", style: TextStyle( fontWeight: FontWeight.bold, color: Colors.blueAccent),)
+                  Text("Login disini", style: TextStyle( fontWeight: FontWeight.bold, color: const Color.fromARGB(255, 8, 33, 76)),)
                 ],
               )
             ],
