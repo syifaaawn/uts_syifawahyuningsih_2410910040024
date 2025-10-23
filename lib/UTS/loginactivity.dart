@@ -8,17 +8,23 @@ class Loginactivity extends StatelessWidget {
     return Scaffold( body: 
     Padding(padding: EdgeInsets.all(10),
     child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+      
         children: [
-          Image.asset("gambar/Logo.png", width: 250, height: 100,),
+          Image.asset("gambar/Logo.png", height: 100,),
+          MainAxisAlignment.start,
            Text(
-              "LKS MART", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+              "LKS", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
+          Text(
+              "MART", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50, color: Colors.blue),),
         ],
         
         
         
-      )
+    )
     ],
     ),
     ),
