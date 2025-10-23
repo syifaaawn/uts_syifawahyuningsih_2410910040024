@@ -129,6 +129,31 @@ class _LoginactivityState extends State<Loginactivity> {
                   return null;
                 },
             ),
+
+            SizedBox(height: 25),
+
+           Row(
+             children: [
+              Expanded(child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                    ),
+                  child: Text(
+                      "Login",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ),
+                  ),
+              
+             ],
+            ),
+            Row(
+              children: [
+                Text("Belum punya akun")
+              ],
+            )
           ],
         ),
       ),
